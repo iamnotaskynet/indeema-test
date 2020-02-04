@@ -1,0 +1,47 @@
+:root, html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+#form-input, #output {
+    width: 45%;
+    margin: 20px;
+    padding: 20px;
+
+    font-family: monospace;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+#form-input {
+    background-color: DarkGreen;
+    color: PaleGreen;
+}
+
+.result {
+    background-color: MidnightBlue;
+    color: PowderBlue;
+}
+
+.error {
+    background-color: darkred;
+    color: salmon;
+}
+
+
+/* Responsive */
+@media only screen and (max-width: 1000px)  {
+    .container {
+        display: block;
+    }
+
+    #form-input, #output {
+        width: 90%;
+        font-size: 35px;
+    }
+    
+}

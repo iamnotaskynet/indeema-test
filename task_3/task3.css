@@ -1,0 +1,32 @@
+
+#formInput {
+    width: 45%;
+    margin: 20px;
+    padding: 20px;
+
+    font-family: monospace;
+    font-weight: 900;
+    font-size: 20px;
+
+    background-color: PaleGreen;
+    border: 2px solid DarkGreen;
+    color: DarkGreen;
+}
+
+#listTable {
+    display: flex;
+}
+
+#output div {
+    border: 2px solid black;
+}
+
+.btnClose {
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    
+    background-color: darkred;
+    border: 2px solid salmon;
+    color: salmon;
+}

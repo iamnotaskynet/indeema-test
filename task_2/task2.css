@@ -1,0 +1,29 @@
+.btn {
+    background-color: greenyellow;
+    border: 2px solid darkolivegreen;
+    color: darkgreen;
+}
+
+.modalWindow {
+    margin: 10px;
+
+    width: 300px;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: skyblue;
+    border: 2px solid midnightblue;
+    color: blue;
+}
+
+.btnClose {
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    
+    background-color: darkred;
+    border: 2px solid salmon;
+    color: salmon;
+}
